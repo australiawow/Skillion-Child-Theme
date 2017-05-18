@@ -1,0 +1,26 @@
+/*
+
+Theme Name: X &ndash; Child Theme
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+
+.x-topbar {
+	-webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(31,44,57,1);
+}
+
+.x-topbar.scrolling {
+	background-color: rgba(31,44,57,0.8);
+}
